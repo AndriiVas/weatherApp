@@ -21,9 +21,9 @@ const DrawerContent = (props) => {
       </TouchableOpacity>
       <TouchableOpacity
         style={tw`flex-row items-center p-4`}
-        onPress={() => handlePress("Asurion page")}
+        onPress={() => handlePress("Google page")}
       >
-        <Text style={tw`text-lg font-bold text-gray-800`}>Asurion</Text>
+        <Text style={tw`text-lg font-bold text-gray-800`}>Google</Text>
       </TouchableOpacity>
     </View>
   );

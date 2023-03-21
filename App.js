@@ -4,7 +4,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
 import { StatusBar } from "expo-status-bar";
 import tw from "tailwind-react-native-classnames";
-import Asurion from "./components/AsurionPage";
+import Google from "./components/GooglePage";
 import BurgerMenu from "./components/BugerMenu";
 
 const Stack = createStackNavigator();
@@ -31,8 +31,8 @@ function App() {
           ]}
         />
         <Stack.Screen
-          name="Asurion page"
-          component={Asurion}
+          name="Google page"
+          component={Google}
           options={[
             ({ navigation }) => ({
               headerLeft: () => <BurgerMenu navigation={navigation} />,

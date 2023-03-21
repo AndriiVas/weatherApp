@@ -34,10 +34,10 @@ export default function HomeScreen() {
 
       <Text style={tw`text-4xl font-bold text-gray-900 mb-8`}>Weather App</Text>
       <TouchableOpacity
-        onPress={() => navigation.navigate("Asurion page")}
+        onPress={() => navigation.navigate("Google page")}
         style={tw`bg-gray-900 rounded-lg py-4 px-8`}
       >
-        <Text style={tw`text-white font-bold text-lg`}>Go to Asurion page</Text>
+        <Text style={tw`text-white font-bold text-lg`}>Go to Google page</Text>
       </TouchableOpacity>
       <TextInput
         style={tw`border-2 border-gray-300 rounded-lg p-4 w-80 my-8 text-gray-900`}
